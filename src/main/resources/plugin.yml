@@ -1,0 +1,5 @@
+name: AnimationsAPI
+version: '1.0'
+main: me.nicolas.animationsAPI.AnimationsAPI
+api-version: '1.21'
+authors: [ Emojiado ]
