@@ -17,6 +17,7 @@ Una API potente y flexible para crear animaciones con ArmorStands en Spigot/Pape
 
 ## 🎮 Animaciones Disponibles
 
+```java
 // Victoria
 api.playAnimation("victory", location);
 
@@ -37,6 +38,7 @@ api.playAnimation("helix", location);
 
 // Alas
 api.playAnimation("wings", location);
+```
 
 ## 📥 Implementación Básica
 
@@ -84,10 +86,11 @@ public class TuPlugin extends JavaPlugin {
         return true;
     }
 }
+```
 
 
-
-#  Crear Animación Personalizada
+```java
+//  Crear Animación Personalizada
 public class MiAnimacion extends BaseAnimation {
     @Override
     public void play(Location location) {
@@ -135,3 +138,4 @@ public class MiAnimacion extends BaseAnimation {
 
 // Registrar tu animación
 api.getAnimationManager().registerAnimation("mianimacion", new MiAnimacion());
+```
